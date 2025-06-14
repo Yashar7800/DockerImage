@@ -1,0 +1,8 @@
+services:
+  dockerimage:
+    image: dockerimage
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5002:5002
